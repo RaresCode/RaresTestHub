@@ -1,0 +1,3 @@
+Expected Results: ['Reprezentant Medical Veterinar', 'Specialist Marketing']
+
+Actual Results: ['Full Time', 'Iași', 'Reprezentant Medical Veterinar']
