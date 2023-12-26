@@ -1,7 +1,7 @@
 
 # Test Job Scrapers for Peviitor.ro
 
-This project is dedicated to testing the efficiency of job data extraction, for details such as job title, city, country, county, and link. Our primary objective is to ensure precise data extraction while concurrently confirming the presence of this information on the Peviitor.ro website.
+This project is dedicated to testing the accuracy of job data extraction, for details such as job title, city, country, county, and link which are scraped from companies websites from their careers section. Our primary objective is to ensure precise data extraction and uploading of these information to the Peviitor.ro website.
 
 ## Features
 
