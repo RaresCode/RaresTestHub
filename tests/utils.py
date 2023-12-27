@@ -14,13 +14,7 @@ class TestUtils:
         job_link = [job_link['job_link'] for job_link in scraper_data]
         
         # Check if the cities list is a nested list
-        city_list = [city['city'] for city in scraper_data]
-        is_nested = all(isinstance(item, list) for item in city_list)
-        
-        if is_nested:
-            job_city = [city['city'] for city in scraper_data]
-        else:
-            job_city = [[city['city']] for city in scraper_data]
+        job_city = [city['city'] if isinstance(city['city'], list) else [city['city']] for city in scraper_data]
             
         return title, job_city, job_country, job_link
 
