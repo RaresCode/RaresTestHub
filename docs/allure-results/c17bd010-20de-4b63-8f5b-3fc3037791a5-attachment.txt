@@ -1,3 +1,0 @@
-Expected Results: ['https://www.careers.sonrisa.hu/jobs/2321786-qa-engineer', 'https://www.careers.sonrisa.hu/jobs/2321796-it-project-manager', 'https://www.careers.sonrisa.hu/jobs/2321802-devops-software-engineer', 'https://www.careers.sonrisa.hu/jobs/2625030-cloud-engineer']
-
-Actual Results: ['https://www.careers.sonrisa.hu/jobs/2321786-qa-engineer', 'https://www.careers.sonrisa.hu/jobs/2321796-it-project-manager', 'https://www.careers.sonrisa.hu/jobs/2321802-devops-software-engineer', 'https://www.careers.sonrisa.hu/jobs/2625030-cloud-engineer']

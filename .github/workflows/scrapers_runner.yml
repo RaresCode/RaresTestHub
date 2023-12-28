@@ -43,7 +43,7 @@ jobs:
     - name: Run pytest with Allure reporting
       continue-on-error: true
       run: |
-        pytest --alluredir=docs/allure-results -n auto
+        pytest tests/ --alluredir=docs/allure-results -n auto
         
     - name: Keep previous run history
       continue-on-error: true
@@ -51,6 +51,8 @@ jobs:
         allure/allure-2.25.0/bin/allure generate --clean docs/allure-results
         rm -rf docs/allure-results/history
         mv -f allure-report/history docs/allure-results
+        mv -f docs/environment.properties docs/allure-results
+        mv -f docs/executor.json docs/allure-results
           
     - name: Generate Allure report
       run: |
