@@ -1,3 +1,0 @@
-Expected Results: ['Cloud Engineer Multiple locations · Fully Remote', 'DevOps Software Engineer Multiple locations · Fully Remote', 'IT Project Manager Multiple locations · Fully Remote', 'Office Manager Subotica', 'QA Engineer Multiple locations · Fully Remote']
-
-Actual Results: ['Cloud Engineer Multiple locations · Fully Remote', 'DevOps Software Engineer Multiple locations · Fully Remote', 'IT Project Manager Multiple locations · Fully Remote', 'Office Manager Subotica', 'QA Engineer Multiple locations · Fully Remote']
