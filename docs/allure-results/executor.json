@@ -1,0 +1,10 @@
+{
+    "name": "Github Actions",
+    "type": "github",
+    "url": "https://peviitor.ro/",
+    "buildName": "v3",
+    "buildUrl": "https://api.peviitor.ro/v3/search/",
+    "reportName": "API Test Report",
+    "reportUrl": "https://peviitor-ro.github.io/RaresTestHub/api_test_report.html"
+}
+  
