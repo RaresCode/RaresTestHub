@@ -43,7 +43,7 @@ jobs:
     - name: Run pytest with Allure reporting
       continue-on-error: true
       run: |
-        pytest --alluredir=docs/allure-results -n auto
+        pytest .\tests\ --alluredir=docs/allure-results -n auto
         
     - name: Keep previous run history
       continue-on-error: true
