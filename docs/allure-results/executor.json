@@ -1,10 +1,9 @@
 {
-    "name": "Github Actions",
-    "type": "github",
-    "url": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/${{ github.run_id }}",
-    "buildName": "${{ github.run_number }}",
-    "buildUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/${{ github.run_id }}",
-    "reportName": "Allure Report",
-    "reportUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/${{ github.run_id }}"
+  "name": "GitHub Actions",
+  "type": "github",
+  "url": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7355576473",
+  "buildName": "23",
+  "buildUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7355576473",
+  "reportName": "Allure Report",
+  "reportUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7355576473"
 }
-  
