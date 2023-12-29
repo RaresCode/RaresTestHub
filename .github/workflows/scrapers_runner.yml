@@ -53,6 +53,9 @@ jobs:
         mv -f allure-report/history docs/allure-results
         mv -f docs/environment.properties docs/allure-results
         mv -f docs/executor.json docs/allure-results
+      env:
+        GITHUB_RUN_ID: ${{ github.run_id }}
+        GITHUB_RUN_NUMBER: ${{ github.run_number }}
           
     - name: Generate Allure report
       run: |
