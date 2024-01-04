@@ -100,6 +100,7 @@ module_names = {
             'vetro': 'vetroScraper',
             'urbica': 'urbicaScraper',
             'noodlepack': 'noodlepackScraper',
+            'intelligentbee': 'intelligentbeeScraper',
             
             # Add more module names as needed
             }
