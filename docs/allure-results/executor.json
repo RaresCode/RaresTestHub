@@ -1,10 +1,9 @@
 {
-    "name": "Github Actions",
-    "type": "github",
-    "url": "https://peviitor.ro/",
-    "buildName": "v3",
-    "buildUrl": "https://api.peviitor.ro/v3/search/",
-    "reportName": "API Test Report",
-    "reportUrl": "https://peviitor-ro.github.io/RaresTestHub/api_test_report.html"
+  "name": "GitHub Actions",
+  "type": "github",
+  "url": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7405756371",
+  "buildName": "31",
+  "buildUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7405756371",
+  "reportName": "Allure Report",
+  "reportUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7405756371"
 }
-  

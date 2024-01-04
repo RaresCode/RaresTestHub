@@ -1,0 +1,3 @@
+Expected Results: ['Account Developmnent', 'Client Service Executive (full time, hybrid)', 'Collections Associate with Italian', 'Collections Associate with Italian', 'Collections Associate with Polish', 'FMCG Account Development Manager – Central Europe', 'Junior Client Service Consultant (full time, hybrid)']
+
+Actual Results: ['Account Developmnent', 'Client Service Executive (full time, hybrid)', 'Collections Associate with Italian', 'Collections Associate with Italian', 'Collections Associate with Polish', 'Junior Client Service Consultant (full time, hybrid)']
