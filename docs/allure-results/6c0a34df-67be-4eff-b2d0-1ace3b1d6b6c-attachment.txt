@@ -1,0 +1,3 @@
+Expected Results: ['Director Financiar FMCG', 'Manager Achiziții proiecte EPC', 'PET Plant Manager']
+
+Actual Results: ['Director Financiar FMCG', 'Manager Achiziții proiecte EPC', 'PET Plant Manager']
