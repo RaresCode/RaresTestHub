@@ -21,7 +21,7 @@ class Scraper:
                     print("Success scraping " + site)
                 except subprocess.CalledProcessError as e:
                     print("Error in " + site)
-                    print(e.output.decode('utf-8'))
+                    print(e)
 
 if __name__ == "__main__":
     # exclude files
@@ -39,6 +39,7 @@ if __name__ == "__main__":
                'brillio.py', # there are no jobs available
                'aeroportoradea.py', # Removed as they changed the page layout, to be fixed
                'mennekes.py', # This does not have jobs at this moment
+               'iasidelivery.py', # Website not working
                'apavital.py',
                'getCounty.py',
                'test.py'
