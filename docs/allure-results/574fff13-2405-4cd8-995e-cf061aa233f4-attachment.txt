@@ -1,0 +1,3 @@
+Expected Results: ['https://ppromania.ro/job/contabil-cu-experienta-in-sap/', 'https://ppromania.ro/job/director-financiar-fmcg-2/', 'https://ppromania.ro/job/inginer-service-si-suport-hvac/', 'https://ppromania.ro/job/inginer-tehnic-vanzari-hvac/', 'https://ppromania.ro/job/manager-achizitii-proiecte-epc/', 'https://ppromania.ro/job/manager-fabrica-pet/', 'https://ppromania.ro/job/manager-vanzari-pet/']
+
+Actual Results: ['https://ppromania.ro/job/director-financiar-fmcg-2/', 'https://ppromania.ro/job/manager-achizitii-proiecte-epc/', 'https://ppromania.ro/job/manager-fabrica-pet/']
