@@ -1,3 +1,0 @@
-Expected Results: [['Bucuresti'], ['Bucuresti / Ilfov'], ['Ilfov - Prahova']]
-
-Actual Results: [['Bucuresti'], ['Bucuresti / Ilfov'], ['Ilfov - Prahova']]

@@ -1,3 +1,0 @@
-Expected Results: []
-
-Actual Results: ['Ajutor de bucatar', 'Asistent Manager', 'Barman', 'Bucatar', 'Lucrator in alimentatie', 'Manager', 'Ospatar', 'Sef Sala', 'Sofer Livrari']
