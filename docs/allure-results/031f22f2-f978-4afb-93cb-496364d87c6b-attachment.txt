@@ -1,0 +1,3 @@
+Expected Results: ['Economist', 'Mid DevOps Engineer', 'Reprezentant Vânzări', 'Reprezentant Vânzări Moldova', 'Reprezentant Vânzări Timișoara']
+
+Actual Results: ['Economist', 'Mid DevOps Engineer', 'Reprezentant Vânzări', 'Reprezentant Vânzări Moldova', 'Reprezentant Vânzări Timișoara']
