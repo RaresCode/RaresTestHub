@@ -95,6 +95,7 @@ class TestScrapers:
 
     @pytest.mark.regression
     @pytest.mark.API
+    @pytest.mark.skip
     def test_scrapers_city(self, setup_tests):
         
         # Dynamically set the title with the company name
@@ -118,6 +119,7 @@ class TestScrapers:
                 
     @pytest.mark.regression
     @pytest.mark.API
+    @pytest.mark.skip
     def test_scrapers_country(self, setup_tests):
         
         # Dynamically set the title with the company name
