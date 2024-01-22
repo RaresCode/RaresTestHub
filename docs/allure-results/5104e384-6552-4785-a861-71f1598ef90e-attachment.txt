@@ -1,0 +1,3 @@
+Expected Results: ['Account Developmnent', 'Client Service Executive (full time, hybrid)', 'Collections Associate with Polish', 'Collections Associate with Polish', 'Credit Controller with Polish', 'Data Processing Specialist', 'FMCG Account Development Manager – Central Europe', 'FP&A Analyst', 'Financial Analyst', 'Junior Client Service Consultant (full time, hybrid)', 'Modelling Analyst']
+
+Actual Results: ['Account Developmnent', 'Client Service Executive (full time, hybrid)', 'Collections Associate with Polish', 'Collections Associate with Polish', 'Credit Controller with Polish', 'Data Processing Specialist', 'FP&A Analyst', 'Financial Analyst', 'Junior Client Service Consultant (full time, hybrid)', 'Modelling Analyst']

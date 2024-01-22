@@ -1,0 +1,1 @@
+{"uuid": "24ccbe5c-a435-4a97-a3ff-7a502ad54306", "children": ["03393daa-26a1-4e8e-8c45-df830606ec07", "e3d47bf8-f870-4f12-a1a2-2ec33ce70162", "a813eac8-6668-4b82-b7e2-6d674e63809c", "415a47f4-2df7-4193-be64-381dd6271660"], "befores": [{"name": "scraper_class", "status": "passed", "start": 1705900222846, "stop": 1705900222846}], "start": 1705900222846, "stop": 1705900223567}
