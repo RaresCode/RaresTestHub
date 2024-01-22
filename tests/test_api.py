@@ -30,8 +30,9 @@ class SetupTests:
         Get job data using the provided scraper class.
         """
         self.scraper_data = scraper_class().return_data()
-        self.scraped_jobs_data = TestUtils.scrape_jobs(self.scraper_data[0])
-        self.peviitor_jobs_data = TestUtils.scrape_peviitor(self.scraper_data[1], 'România')
+        testutils = TestUtils()
+        self.scraped_jobs_data = testutils.scrape_jobs(self.scraper_data[0])
+        self.peviitor_jobs_data = testutils.scrape_peviitor(self.scraper_data[1], 'România')
 
 @pytest.fixture(params=SetupTests().import_all_modules(), scope="class")
 def scraper_class(request):
@@ -95,7 +96,6 @@ class TestScrapers:
 
     @pytest.mark.regression
     @pytest.mark.API
-    @pytest.mark.skip
     def test_scrapers_city(self, setup_tests):
         
         # Dynamically set the title with the company name
@@ -119,7 +119,6 @@ class TestScrapers:
                 
     @pytest.mark.regression
     @pytest.mark.API
-    @pytest.mark.skip
     def test_scrapers_country(self, setup_tests):
         
         # Dynamically set the title with the company name
