@@ -1,0 +1,3 @@
+Expected Results: ['https://www.electra.ro/ro/cariere/inginer-electronist-electra']
+
+Actual Results: ['https://www.electra.ro/ro/cariere/inginer-electronist-electra']
