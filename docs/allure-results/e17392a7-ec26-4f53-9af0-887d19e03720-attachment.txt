@@ -1,0 +1,3 @@
+Expected Results: ['AI Research Engineer', 'Experienced Data Engineer', 'Experienced Solution Architect', 'Kragujevac Internship', 'Machine Learning Engineer', 'PowerBI Data Analyst', 'Prompt Engineer & Librarian', 'Senior Embedded Python Engineer', 'Software Engineer, Generative AI', 'Software Test Engineer']
+
+Actual Results: ['AI Research Engineer', 'Experienced Data Engineer', 'Experienced Solution Architect', 'Kragujevac Internship', 'Machine Learning Engineer', 'PowerBI Data Analyst', 'Prompt Engineer & Librarian', 'Senior Embedded Python Engineer', 'Software Engineer, Generative AI', 'Software Test Engineer']
