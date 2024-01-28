@@ -1,0 +1,3 @@
+Expected Results: ['Customer Support Specialist', 'Full Stack Developer', 'Tehnician Montaje']
+
+Actual Results: ['Customer Support Specialist', 'Full Stack Developer', 'Tehnician Montaje']
