@@ -1,0 +1,3 @@
+Expected Results: ['https://canopy.ro/internship-digital/', 'https://canopy.ro/middle-ppc-specialist/', 'https://canopy.ro/office-manager/']
+
+Actual Results: ['https://canopy.ro/internship-digital/', 'https://canopy.ro/middle-ppc-specialist/', 'https://canopy.ro/office-manager/']
