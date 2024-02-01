@@ -1,0 +1,3 @@
+Expected Results: ['Inginer Electronist (ELECTRA)']
+
+Actual Results: ['Inginer Electronist (ELECTRA)']
