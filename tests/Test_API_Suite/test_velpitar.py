@@ -1,26 +1,26 @@
 from tests.utils import TestUtils
-from sites.bitsoftware import BitSoftwareScraper
+from sites.velpitar import velpitarScraper
 import pytest
-import allure
 import requests
+import allure
 
-company_name = 'bitsoftware'
+company_name = 'velpitar'
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="module", autouse=True)
 def get_job_details():
     """
     Fixture for scraping process from the career section.
     """
-    scraper_data = BitSoftwareScraper().return_data()
+    scraper_data = velpitarScraper().return_data()
     scraped_jobs_data = TestUtils.scrape_jobs(scraper_data[0])
     peviitor_jobs_data = TestUtils.scrape_peviitor(scraper_data[1], 'România')
     return scraped_jobs_data, peviitor_jobs_data
-    
+
 # Test functions
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_bitsoftware_title_api(get_job_details):
+def test_velpitar_title_api(get_job_details):
     allure.dynamic.title(f"Test job titles from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -37,7 +37,7 @@ def test_bitsoftware_title_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_bitsoftware_city_api(get_job_details):
+def test_velpitar_city_api(get_job_details):
     allure.dynamic.title(f"Test job cities from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -54,7 +54,7 @@ def test_bitsoftware_city_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_bitsoftware_country_api(get_job_details):
+def test_velpitar_country_api(get_job_details):
     allure.dynamic.title(f"Test job countries from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -70,7 +70,7 @@ def test_bitsoftware_country_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_bitsoftware_link_api(get_job_details):
+def test_velpitar_link_api(get_job_details):
     allure.dynamic.title(f"Test job links from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -84,9 +84,10 @@ def test_bitsoftware_link_api(get_job_details):
         allure.attach(f"Actual Results: {job_links_peviitor}", name="Actual Results")
         TestUtils().check_job_links(job_links_scraper, job_links_peviitor)
 
+
 @pytest.mark.regression
 @pytest.mark.API
-def test_bitsoftware_status_code_link_api(get_job_details):
+def test_velpitar_status_code_link_api(get_job_details):
     allure.dynamic.title(f"Test http code response on job links for {company_name} website")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details

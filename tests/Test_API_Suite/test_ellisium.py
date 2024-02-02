@@ -1,5 +1,5 @@
 from tests.utils import TestUtils
-from sites.ellisium  import ellisium Scraper
+from sites.ellisium  import ellisiumScraper
 import pytest
 import allure
 import requests
@@ -11,7 +11,7 @@ def get_job_details():
     """
     Fixture for scraping process from the career section.
     """
-    scraper_data = ellisium Scraper().return_data()
+    scraper_data = ellisiumScraper().return_data()
     scraped_jobs_data = TestUtils.scrape_jobs(scraper_data[0])
     peviitor_jobs_data = TestUtils.scrape_peviitor(scraper_data[1], 'România')
     return scraped_jobs_data, peviitor_jobs_data
@@ -20,7 +20,7 @@ def get_job_details():
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ellisium _title_api(get_job_details):
+def test_ellisium_title_api(get_job_details):
     allure.dynamic.title(f"Test job titles from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -37,7 +37,7 @@ def test_ellisium _title_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ellisium _city_api(get_job_details):
+def test_ellisium_city_api(get_job_details):
     allure.dynamic.title(f"Test job cities from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -54,7 +54,7 @@ def test_ellisium _city_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ellisium _country_api(get_job_details):
+def test_ellisium_country_api(get_job_details):
     allure.dynamic.title(f"Test job countries from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -70,7 +70,7 @@ def test_ellisium _country_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ellisium _link_api(get_job_details):
+def test_ellisium_link_api(get_job_details):
     allure.dynamic.title(f"Test job links from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details

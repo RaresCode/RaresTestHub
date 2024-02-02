@@ -1,17 +1,17 @@
 from tests.utils import TestUtils
-from sites.creatopy import creatopyScraper
+from sites.creatopy import CreatopyScraper
 import pytest
 import allure
 import requests
 
-company_name = 'creatopy'
+company_name = 'Creatopy'
 
 @pytest.fixture(scope="module")
 def get_job_details():
     """
     Fixture for scraping process from the career section.
     """
-    scraper_data = creatopyScraper().return_data()
+    scraper_data = CreatopyScraper().return_data()
     scraped_jobs_data = TestUtils.scrape_jobs(scraper_data[0])
     peviitor_jobs_data = TestUtils.scrape_peviitor(scraper_data[1], 'România')
     return scraped_jobs_data, peviitor_jobs_data
@@ -20,7 +20,7 @@ def get_job_details():
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_creatopy_title_api(get_job_details):
+def test_Creatopy_title_api(get_job_details):
     allure.dynamic.title(f"Test job titles from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -37,7 +37,7 @@ def test_creatopy_title_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_creatopy_city_api(get_job_details):
+def test_Creatopy_city_api(get_job_details):
     allure.dynamic.title(f"Test job cities from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -54,7 +54,7 @@ def test_creatopy_city_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_creatopy_country_api(get_job_details):
+def test_Creatopy_country_api(get_job_details):
     allure.dynamic.title(f"Test job countries from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -70,7 +70,7 @@ def test_creatopy_country_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_creatopy_link_api(get_job_details):
+def test_Creatopy_link_api(get_job_details):
     allure.dynamic.title(f"Test job links from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -86,7 +86,7 @@ def test_creatopy_link_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_creatopy_status_code_link_api(get_job_details):
+def test_Creatopy_status_code_link_api(get_job_details):
     allure.dynamic.title(f"Test http code response on job links for {company_name} website")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
