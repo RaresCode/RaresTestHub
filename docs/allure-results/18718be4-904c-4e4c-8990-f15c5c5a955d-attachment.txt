@@ -1,3 +1,0 @@
-Expected Results: [['Chiajna'], ['Chiajna']]
-
-Actual Results: [['Chiajna'], ['Chiajna']]

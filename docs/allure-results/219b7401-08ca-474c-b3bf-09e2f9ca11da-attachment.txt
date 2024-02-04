@@ -1,3 +1,0 @@
-Expected Results: ['Cluster Business Officer- Black Sea & Wider Europe Cluster', 'Customer Services Advisor', 'Teaching Assistant', 'Teaching Operations Coordinator']
-
-Actual Results: ['Customer Services Advisor', 'Teaching Assistant', 'Teaching Operations Coordinator']

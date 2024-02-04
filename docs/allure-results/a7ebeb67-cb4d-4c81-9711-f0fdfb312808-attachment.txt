@@ -1,3 +1,0 @@
-Expected Results: ['Key Account Manager, divizia Ferme', 'Reprezentant Medical Veterinar', 'Reprezentant medical Veterinar']
-
-Actual Results: ['Key Account Manager, divizia Ferme', 'Reprezentant Medical Veterinar', 'Reprezentant medical Veterinar']

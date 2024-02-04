@@ -1,3 +1,0 @@
-Expected Results: [['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti / Ilfov'], ['Ilfov - Prahova'], ['Romania <small>(Remote)</small>']]
-
-Actual Results: [['Bucuresti'], ['Bucuresti / Ilfov'], ['Ilfov - Prahova']]

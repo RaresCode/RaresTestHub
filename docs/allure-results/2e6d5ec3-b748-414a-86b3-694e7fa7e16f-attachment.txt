@@ -1,3 +1,0 @@
-Expected Results: []
-
-Actual Results: ['Senior .NET Developer']

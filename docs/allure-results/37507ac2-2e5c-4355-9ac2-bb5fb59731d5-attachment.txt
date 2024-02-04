@@ -1,3 +1,0 @@
-Expected Results: ['Economist', 'Manager de Producție', 'Mid DevOps Engineer', 'Reprezentant Vânzări', 'Reprezentant Vânzări Moldova', 'Reprezentant Vânzări Timișoara']
-
-Actual Results: ['Economist', 'Manager de Producție', 'Mid DevOps Engineer', 'Reprezentant Vânzări', 'Reprezentant Vânzări Moldova', 'Reprezentant Vânzări Timișoara']

@@ -1,3 +1,0 @@
-Expected Results: ['Operator Productie - sat Bratuleni', 'Tehnician laborant analize produse alimentare']
-
-Actual Results: ['Operator Productie - sat Bratuleni', 'Tehnician laborant analize produse alimentare']

@@ -1,3 +1,0 @@
-Expected Results: ['https://cargotrack.ro/locuri-de-munca/customer-support-specialist/', 'https://cargotrack.ro/locuri-de-munca/full-stack-developer/', 'https://cargotrack.ro/locuri-de-munca/tehnician-montaje/']
-
-Actual Results: ['https://cargotrack.ro/locuri-de-munca/customer-support-specialist/', 'https://cargotrack.ro/locuri-de-munca/full-stack-developer/', 'https://cargotrack.ro/locuri-de-munca/tehnician-montaje/']

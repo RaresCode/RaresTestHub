@@ -1,3 +1,0 @@
-Expected Results: ['Logistics Assistant', 'Quality Process Engineer/Specialist', 'Quality Test Engineer CWS division', 'SMD Technician']
-
-Actual Results: ['Logistics Assistant', 'Quality Process Engineer/Specialist', 'Quality Test Engineer CWS division', 'SMD Technician']

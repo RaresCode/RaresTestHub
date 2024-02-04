@@ -1,3 +1,0 @@
-Expected Results: [['Baia Mare'], ['Bucuresti', 'Ploiești', 'Pitești'], ['Cluj-Napoca'], ['Cluj-Napoca'], ['Oradea'], ['Oradea'], ['Oradea'], ['Oradea'], ['Oradea', 'Arad', 'Timișoara'], ['Oradea', 'Arad', 'Timișoara']]
-
-Actual Results: [['Baia Mare'], ['București', 'Ploiești', 'Pitești'], ['Cluj-Napoca'], ['Cluj-Napoca'], ['Oradea'], ['Oradea'], ['Oradea'], ['Oradea'], ['Oradea', 'Arad', 'Timișoara'], ['Oradea', 'Arad', 'Timișoara']]

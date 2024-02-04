@@ -1,3 +1,0 @@
-Expected Results: ['Contabil cu experiență în SAP', 'Director de Transformare', 'Inginer Service și Suport Tehnic echipamente HVAC', 'Inginer Tehnic Vânzări HVAC', 'Manager Vânzări']
-
-Actual Results: ['Contabil cu experiență în SAP', 'Director de Transformare', 'Inginer Service și Suport Tehnic echipamente HVAC', 'Inginer Tehnic Vânzări HVAC', 'Manager Vânzări']

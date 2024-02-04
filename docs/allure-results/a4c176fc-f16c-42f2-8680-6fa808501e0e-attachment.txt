@@ -1,3 +1,0 @@
-Expected Results: [['Iași']]
-
-Actual Results: []

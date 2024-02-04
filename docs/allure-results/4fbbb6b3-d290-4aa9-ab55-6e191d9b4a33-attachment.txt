@@ -1,3 +1,0 @@
-Expected Results: ['Asistent medical generalist (spital si ambulatoriu)', 'Asistent medical generalist voluntar (ambulatoriu si spital)', 'Consilier relații clienți', 'Infirmiera', 'Specialist Marketing', 'Specialist Resurse Umane']
-
-Actual Results: ['Asistent medical generalist (spital si ambulatoriu)', 'Asistent medical generalist voluntar (ambulatoriu si spital)', 'Consilier relații clienți', 'Infirmiera', 'Specialist Marketing', 'Specialist Resurse Umane']

@@ -1,3 +1,0 @@
-Expected Results: ['INTERNSHIP DIGITAL (FEBRUARIE 2024) – Sesiune de înscrieri încheiată', 'MIDDLE PPC SPECIALIST', 'OFFICE MANAGER']
-
-Actual Results: ['INTERNSHIP DIGITAL (FEBRUARIE 2024) – Sesiune de înscrieri încheiată', 'MIDDLE PPC SPECIALIST', 'OFFICE MANAGER']

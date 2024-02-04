@@ -1,3 +1,0 @@
-Expected Results: ['Consultant Suport Clienti', 'Corporate Healthcare Manager', 'Data Protection Officer', 'Risk Manager', 'Subscriitor de Raspundere Civila / Bunuri', 'Subscriitor junior']
-
-Actual Results: ['Consultant Suport Clienti', 'Corporate Healthcare Manager', 'Data Protection Officer', 'Risk Manager', 'Subscriitor de Raspundere Civila / Bunuri', 'Subscriitor junior']

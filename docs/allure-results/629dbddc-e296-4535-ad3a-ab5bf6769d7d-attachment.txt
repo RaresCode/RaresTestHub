@@ -1,3 +1,0 @@
-Expected Results: ['Receptionist']
-
-Actual Results: ['Receptionist']

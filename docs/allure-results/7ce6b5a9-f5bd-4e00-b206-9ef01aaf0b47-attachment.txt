@@ -1,3 +1,0 @@
-Expected Results: [['Cluj'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara']]
-
-Actual Results: [['Cluj'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara'], ['Timisoara']]

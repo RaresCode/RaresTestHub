@@ -1,3 +1,0 @@
-Expected Results: ['Customer Services Advisor', 'Teaching Assistant']
-
-Actual Results: ['Customer Services Advisor', 'Teaching Assistant', 'Teaching Operations Coordinator']

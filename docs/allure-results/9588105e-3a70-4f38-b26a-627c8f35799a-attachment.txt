@@ -1,3 +1,0 @@
-Expected Results: [['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['all']]
-
-Actual Results: [['București'], ['București'], ['București'], ['București'], ['all']]

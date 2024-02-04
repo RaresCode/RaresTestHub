@@ -1,3 +1,0 @@
-Expected Results: [['Brasov'], ['Brasov'], ['Brasov'], ['Brasov'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti', 'Cluj-Napoca'], ['Chitila'], ['Chitila'], ['Chitila'], ['Giurgiu'], ['Giurgiu'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Oradea'], ['Pitesti'], ['Pitesti']]
-
-Actual Results: [['Brasov'], ['Brasov'], ['Brasov'], ['Brasov'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti', 'Cluj-Napoca'], ['Chitila'], ['Chitila'], ['Chitila'], ['Giurgiu'], ['Giurgiu'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Oradea'], ['Pitesti'], ['Pitesti']]

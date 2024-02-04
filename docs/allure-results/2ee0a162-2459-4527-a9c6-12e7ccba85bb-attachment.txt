@@ -1,3 +1,0 @@
-Expected Results: ['Tehnician laborant analize produse alimentare']
-
-Actual Results: ['Tehnician laborant analize produse alimentare']

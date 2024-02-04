@@ -1,3 +1,0 @@
-Expected Results: [['Bucuresti', 'Cluj'], ['Constanta', 'Timisoara', 'Miercurea Ciuc', 'Galati', 'Slobozia', 'Sibiu'], ['Iasi'], ['Iasi'], ['Iasi'], ['Suceava', 'Pitesti', 'Constanta', 'Miercurea Ciuc']]
-
-Actual Results: [['Bucuresti', 'Cluj'], ['Constanta', 'Timisoara', 'Miercurea Ciuc', 'Galati', 'Slobozia', 'Sibiu'], ['Iasi'], ['Iasi'], ['Iasi'], ['Suceava', 'Pitesti', 'Constanta', 'Miercurea Ciuc']]

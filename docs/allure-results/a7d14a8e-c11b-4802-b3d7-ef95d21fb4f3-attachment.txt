@@ -1,3 +1,0 @@
-Expected Results: [['Craiova'], ['Piatra-Neamt', 'Bacau', 'Roman', 'Iasi'], ['Targu-Mures'], ['all'], ['all'], ['all']]
-
-Actual Results: [['Craiova'], ['Piatra-Neamt', 'Bacau', 'Roman', 'Iasi'], ['Targu-Mures'], ['all'], ['all'], ['all']]

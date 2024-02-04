@@ -1,3 +1,0 @@
-Expected Results: ['Experienced Data Engineer', 'Hardware Architect', 'Senior Embedded Python Engineer', 'Software Test Engineer']
-
-Actual Results: ['Experienced Data Engineer', 'Hardware Architect', 'Senior Embedded Python Engineer', 'Software Test Engineer']

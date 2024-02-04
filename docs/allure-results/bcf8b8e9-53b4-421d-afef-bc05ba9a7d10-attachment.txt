@@ -1,3 +1,0 @@
-Expected Results: [['Bucuresti', 'Timisoara', 'Cluj-Napoca', 'Brasov', 'Iasi'], ['Constanța'], ['Măgurele']]
-
-Actual Results: [['București', 'Timisoara', 'Cluj-Napoca', 'Brasov', 'Iasi'], ['Constanța'], ['Măgurele']]

@@ -1,3 +1,0 @@
-Expected Results: [['Bacau'], ['Bacau'], ['Bacau'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi']]
-
-Actual Results: [['Bacau'], ['Bacau'], ['Bacau'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi'], ['Iasi']]

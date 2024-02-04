@@ -1,3 +1,0 @@
-Expected Results: [['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București']]
-
-Actual Results: [['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București'], ['București']]
