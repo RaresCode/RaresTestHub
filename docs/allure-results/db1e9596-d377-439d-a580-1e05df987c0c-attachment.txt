@@ -1,0 +1,3 @@
+Expected Results: ['Economist', 'Logistics Planner', 'Manager de Producție', 'Mid DevOps Engineer', 'Reprezentant Vânzări', 'Reprezentant Vânzări Moldova', 'Reprezentant Vânzări Timișoara', 'Specialist Administrativ Operational']
+
+Actual Results: ['Economist', 'Logistics Planner', 'Manager de Producție', 'Mid DevOps Engineer', 'Reprezentant Vânzări', 'Reprezentant Vânzări Moldova', 'Reprezentant Vânzări Timișoara', 'Specialist Administrativ Operational']
