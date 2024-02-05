@@ -40,7 +40,7 @@ if __name__ == "__main__":
                'aeroportoradea.py', # Removed as they changed the page layout, to be fixed
                'mennekes.py', # This does not have jobs at this moment
                'iasidelivery.py', # Website not working
-               'nokia.py'
+               'nokia.py',
                'apavital.py',
                'getCounty.py',
                'test.py'
