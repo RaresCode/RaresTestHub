@@ -1,3 +1,0 @@
-Expected Results: ['Account Developmnent', 'Client Service Executive (full time, hybrid)', 'Collections Associate with Italian', 'Collections Associate with Italian', 'Collections Associate with Polish', 'Credit Controller with Italian', 'Credit Controller with Polish', 'Data Processing Specialist', 'FMCG Account Development Manager – Central Europe', 'Junior Client Service Consultant (full time, hybrid)']
-
-Actual Results: ['Account Developmnent', 'Client Service Executive (full time, hybrid)', 'Collections Associate with Italian', 'Collections Associate with Italian', 'Collections Associate with Polish', 'Credit Controller with Italian', 'Credit Controller with Polish', 'Data Processing Specialist', 'Junior Client Service Consultant (full time, hybrid)']

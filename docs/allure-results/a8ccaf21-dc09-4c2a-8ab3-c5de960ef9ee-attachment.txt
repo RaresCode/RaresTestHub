@@ -1,3 +1,0 @@
-Expected Results: ['Contabil cu experiență în SAP', 'Director Financiar FMCG', 'Director de Transformare', 'Inginer Service și Suport Tehnic echipamente HVAC', 'Inginer Tehnic Vânzări HVAC', 'Manager Achiziții proiecte EPC', 'Manager Vânzări', 'PET Plant Manager']
-
-Actual Results: ['Director Financiar FMCG', 'Manager Achiziții proiecte EPC', 'PET Plant Manager']

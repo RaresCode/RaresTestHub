@@ -1,3 +1,0 @@
-Expected Results: []
-
-Actual Results: ['România', 'România', 'România', 'România', 'România', 'România']

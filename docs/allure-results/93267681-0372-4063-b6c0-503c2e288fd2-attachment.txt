@@ -1,3 +1,0 @@
-Expected Results: ['https://eurotech-iasi.ro/tehnician-service-motoare-termice/']
-
-Actual Results: ['https://eurotech-iasi.ro/tehnician-service-motoare-termice/']
