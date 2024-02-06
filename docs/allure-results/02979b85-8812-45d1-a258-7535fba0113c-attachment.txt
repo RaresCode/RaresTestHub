@@ -1,0 +1,3 @@
+Expected Results: ['https://www.zeelandia.ro/cariere/anunt-extern-post-vacant-operator-productie_2.pdf', 'https://www.zeelandia.ro/cariere/anunt-extern-post-vacant-tehnician-laborant.pdf', 'https://www.zeelandia.ro/cariere/anunt-extern-post-vacant-tehnolog_v2.pdf']
+
+Actual Results: ['https://www.zeelandia.ro/cariere/anunt-extern-post-vacant-operator-productie_2.pdf', 'https://www.zeelandia.ro/cariere/anunt-extern-post-vacant-tehnician-laborant.pdf', 'https://www.zeelandia.ro/cariere/anunt-extern-post-vacant-tehnolog_v2.pdf']

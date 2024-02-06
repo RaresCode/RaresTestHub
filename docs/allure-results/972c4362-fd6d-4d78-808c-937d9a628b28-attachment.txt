@@ -1,0 +1,3 @@
+Expected Results: ['ATM Java Developer', 'Embedded Software Engineer Aeronautics', 'Junior Software Engineer', 'Test & Validation ATM Engineer']
+
+Actual Results: ['ATM Java Developer', 'Embedded Software Engineer Aeronautics', 'Junior Software Engineer', 'Test & Validation ATM Engineer']
