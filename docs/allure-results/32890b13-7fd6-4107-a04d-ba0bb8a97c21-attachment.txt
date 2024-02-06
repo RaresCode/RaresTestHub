@@ -1,3 +1,0 @@
-Expected Results: ['Operator Productie - sat Bratuleni', 'Tehnician laborant analize produse alimentare', 'Tehnolog - punct de lucru Chiajna - jud. Ilfov']
-
-Actual Results: ['Operator Productie - sat Bratuleni', 'Tehnician laborant analize produse alimentare', 'Tehnolog - punct de lucru Chiajna - jud. Ilfov']

@@ -1,3 +1,0 @@
-Expected Results: [['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti,', 'Ilfov,', 'Arges'], ['Cluj', '(Jucu)'], ['all']]
-
-Actual Results: [['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti'], ['Bucuresti,', 'Ilfov,', 'Arges'], ['Cluj', '(Jucu)'], ['all']]

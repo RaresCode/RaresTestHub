@@ -1,3 +1,0 @@
-Expected Results: ['Project Coordinator', 'Teaching Assistant', 'Teaching Operations Coordinator']
-
-Actual Results: ['Project Coordinator', 'Teaching Assistant', 'Teaching Operations Coordinator']
