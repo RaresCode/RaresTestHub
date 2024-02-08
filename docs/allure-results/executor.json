@@ -1,9 +1,9 @@
 {
   "name": "GitHub Actions",
   "type": "github",
-  "url": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7810209568",
-  "buildName": "80",
-  "buildUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7810209568",
+  "url": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7825160056",
+  "buildName": "81",
+  "buildUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7825160056",
   "reportName": "Allure Report",
-  "reportUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7810209568"
+  "reportUrl": "https://github.com/peviitor-ro/RaresTestHub/actions/runs/7825160056"
 }
