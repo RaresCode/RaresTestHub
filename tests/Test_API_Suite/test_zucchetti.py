@@ -6,14 +6,15 @@ import allure
 
 company_name = 'zucchetti'
 
-@pytest.fixture(scope="module", autouse=True)
+@pytest.fixture(scope="module")
 def get_job_details():
     """
     Fixture for scraping process from the career section.
     """
     scraper_data = zucchettiScraper().return_data()
-    scraped_jobs_data = TestUtils.scrape_jobs(scraper_data[0])
-    peviitor_jobs_data = TestUtils.scrape_peviitor(scraper_data[1], 'România')
+    testutils = TestUtils()
+    scraped_jobs_data = testutils.scrape_jobs(scraper_data[0])
+    peviitor_jobs_data = testutils.scrape_peviitor(scraper_data[1], 'România')
     return scraped_jobs_data, peviitor_jobs_data
 
 # Test functions
