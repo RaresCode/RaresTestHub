@@ -43,11 +43,11 @@ def test_zeelandia_city_api(get_job_details):
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
     with allure.step("Step 1: Get job cities and titles  from the scraper"):
-        job_cities_scraper = sorted(scraped_jobs_data[1])
+        job_cities_scraper = scraped_jobs_data[1]
         job_titles_scraper = scraped_jobs_data[0]
         
     with allure.step("Step 2: Get job cities and titles from the Peviitor API"):
-        job_cities_peviitor = sorted(peviitor_jobs_data[1])
+        job_cities_peviitor = peviitor_jobs_data[1]
         job_titles_peviitor = scraped_jobs_data[0]
 
     with allure.step("Step 3: Compare job cities from scraper response against Peviitor API Response"):
@@ -63,11 +63,11 @@ def test_zeelandia_country_api(get_job_details):
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
     with allure.step("Step 1: Get job countries and titles from the scraper"):
-        job_countries_scraper = sorted(scraped_jobs_data[2])
+        job_countries_scraper = scraped_jobs_data[2]
         job_titles_scraper = scraped_jobs_data[0]
         
     with allure.step("Step 2: Get job countries and titles from the Peviitor API"):
-        job_countries_peviitor = sorted(peviitor_jobs_data[2])
+        job_countries_peviitor = peviitor_jobs_data[2]
         job_titles_peviitor = scraped_jobs_data[0]
 
     with allure.step("Step 3: Compare job countries from scraper response against Peviitor API Response"):
