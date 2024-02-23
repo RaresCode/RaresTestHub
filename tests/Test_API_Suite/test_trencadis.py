@@ -96,7 +96,7 @@ def test_trencadis_link_api(get_job_details):
 def test_trencadis_status_code_link_api(get_job_details):
     allure.dynamic.title(f"Test http code response on job links for {company_name} website")
 
-    scraped_jobs_data, peviitor_jobs_data = get_job_details
+    scraped_jobs_data = get_job_details
     with allure.step("Step 1: Get job links from the scraper"):
         job_links_scraper = sorted(scraped_jobs_data[3])
 

@@ -1,7 +1,7 @@
 from tests.utils import TestUtils
 from sites.kaizengaming import KaizenGamingScraper
 import pytest
-import allure
+import allure 
 import requests
 
 company_name = 'kaizengaming'
