@@ -2,7 +2,7 @@ from unidecode import unidecode
 import requests
 import allure
 
-class testutilsTestUtils:
+class TestUtils:
 
     def scrape_jobs(self, scraper_data):
         """
