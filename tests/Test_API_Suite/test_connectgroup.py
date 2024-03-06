@@ -12,8 +12,9 @@ def get_job_details():
     Fixture for scraping process from the career section.
     """
     scraper_data = connectgroupScraper().return_data()
-    scraped_jobs_data = TestUtils.scrape_jobs(scraper_data[0])
-    peviitor_jobs_data = TestUtils.scrape_peviitor(scraper_data[1], 'România')
+    testutils = TestUtils()
+    scraped_jobs_data = testutils.scrape_jobs(scraper_data[0])
+    peviitor_jobs_data = testutils.scrape_peviitor(scraper_data[1], 'România')
     return scraped_jobs_data, peviitor_jobs_data
     
 # Test functions
@@ -52,7 +53,7 @@ def test_connectgroup_city_api(get_job_details):
     with allure.step("Step 3: Compare job cities from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_cities_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_cities_peviitor}", name="Actual Results")
-        TestUtils().check_job_cities(job_cities_scraper, job_titles_scraper, job_cities_peviitor, job_titles_peviitor)
+        TestUtils().check_job_cities(job_cities_scraper, job_cities_peviitor, job_titles_scraper, job_titles_peviitor)
 
 @pytest.mark.regression
 @pytest.mark.API
@@ -71,7 +72,7 @@ def test_connectgroup_country_api(get_job_details):
     with allure.step("Step 3: Compare job countries from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_countries_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_countries_peviitor}", name="Actual Results")
-        TestUtils().check_job_countries(job_countries_scraper, job_titles_scraper, job_countries_peviitor, job_titles_peviitor)
+        TestUtils().check_job_countries(job_countries_scraper, job_countries_peviitor, job_titles_scraper, job_titles_peviitor)
 
 @pytest.mark.regression
 @pytest.mark.API
