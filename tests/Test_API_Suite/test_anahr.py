@@ -61,10 +61,13 @@ def test_anahr_country_api(get_job_details):
     allure.dynamic.title(f"Test job countries from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
-    with allure.step("Step 1: Get job countries from the scraper"):
-        job_countries_scraper = sorted(scraped_jobs_data[2])
-    with allure.step("Step 2: Get job countries from the Peviitor API"):
-        job_countries_peviitor = sorted(peviitor_jobs_data[2])
+    with allure.step("Step 1: Get job countries and titles from the scraper"):
+        job_countries_scraper = scraped_jobs_data[2]
+        job_titles_scraper = scraped_jobs_data[0]
+
+    with allure.step("Step 2: Get job countries and titles from the Peviitor API"):
+        job_countries_peviitor = peviitor_jobs_data[2]
+        job_titles_peviitor = peviitor_jobs_data[0]
 
     with allure.step("Step 3: Compare job countries from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_countries_scraper}", name="Expected Results")
