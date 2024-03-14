@@ -55,7 +55,7 @@ def test_apavital_city_api(get_job_details):
     with allure.step("Step 3: Compare job cities from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_cities_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_cities_peviitor}", name="Actual Results")
-        TestUtils().check_job_cities(job_cities_scraper, job_titles_scraper, job_cities_peviitor, job_titles_peviitor)
+        TestUtils().check_job_cities(job_cities_scraper, job_cities_peviitor, job_titles_scraper, job_titles_peviitor)
 
 @pytest.mark.regression
 @pytest.mark.API
@@ -75,7 +75,7 @@ def test_apavital_country_api(get_job_details):
     with allure.step("Step 3: Compare job countries from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_countries_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_countries_peviitor}", name="Actual Results")
-        TestUtils().check_job_countries(job_countries_scraper, job_titles_scraper, job_countries_peviitor, job_titles_peviitor)
+        TestUtils().check_job_countries(job_countries_scraper, job_countries_peviitor, job_titles_scraper, job_titles_peviitor)
 
 @pytest.mark.regression
 @pytest.mark.API

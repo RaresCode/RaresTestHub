@@ -55,8 +55,7 @@ def test_aeroportoradea_city_api(get_job_details):
     with allure.step("Step 3: Compare job cities from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_cities_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_cities_peviitor}", name="Actual Results")
-        TestUtils().check_job_cities(job_cities_scraper, job_titles_scraper, job_cities_peviitor, job_titles_peviitor)
-
+        TestUtils().check_job_cities(job_cities_scraper, job_cities_peviitor, job_titles_scraper, job_titles_peviitor)
 @pytest.mark.regression
 @pytest.mark.API
 @pytest.mark.skip
@@ -75,9 +74,9 @@ def test_aeroportoradea_country_api(get_job_details):
     with allure.step("Step 3: Compare job countries from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_countries_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_countries_peviitor}", name="Actual Results")
-        TestUtils().check_job_countries(job_countries_scraper, job_titles_scraper, job_countries_peviitor, job_titles_peviitor)
+        TestUtils().check_job_countries(job_countries_scraper, job_countries_peviitor, job_titles_scraper, job_titles_peviitor)
 
-@pytest.mark.regression
+@pytest.mark.regressione
 @pytest.mark.API
 @pytest.mark.skip
 def test_aeroportoradea_link_api(get_job_details):
