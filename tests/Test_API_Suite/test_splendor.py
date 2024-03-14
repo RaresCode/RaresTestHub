@@ -92,7 +92,7 @@ def test_splendor_link_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_vetro_status_code_link_api(get_job_details):
+def test_splendor_status_code_link_api(get_job_details):
     allure.dynamic.title(f"Test http code response on job links for {company_name} website")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
