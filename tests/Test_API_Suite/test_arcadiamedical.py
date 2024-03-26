@@ -1,27 +1,27 @@
 from tests.utils import TestUtils
-from sites.ramadaiasi import ramadaiasiScraper
+from sites.arcadiamedical import arcadiamedicalScraper
 import pytest
-import allure
 import requests
+import allure
 
-company_name = 'ramadaiasi'
+company_name = 'arcadiamedical'
 
 @pytest.fixture(scope="module")
 def get_job_details():
     """
     Fixture for scraping process from the career section.
     """
-    scraper_data = ramadaiasiScraper().return_data()
+    scraper_data = arcadiamedicalScraper().return_data()
     testutils = TestUtils()
     scraped_jobs_data = testutils.scrape_jobs(scraper_data[0])
     peviitor_jobs_data = testutils.scrape_peviitor(scraper_data[1], 'România')
     return scraped_jobs_data, peviitor_jobs_data
-    
+
 # Test functions
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ramadaiasi_title_api(get_job_details):
+def test_arcadiamedical_title_api(get_job_details):
     allure.dynamic.title(f"Test job titles from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -38,7 +38,7 @@ def test_ramadaiasi_title_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ramadaiasi_city_api(get_job_details):
+def test_arcadiamedical_city_api(get_job_details):
     allure.dynamic.title(f"Test job cities from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -46,6 +46,7 @@ def test_ramadaiasi_city_api(get_job_details):
         job_cities_scraper = scraped_jobs_data[1]
         job_titles_scraper = scraped_jobs_data[0]
         
+    
     with allure.step("Step 2: Get job cities and titles from the Peviitor API"):
         job_cities_peviitor = peviitor_jobs_data[1]
         job_titles_peviitor = peviitor_jobs_data[0]
@@ -57,7 +58,7 @@ def test_ramadaiasi_city_api(get_job_details):
 
 @pytest.mark.regression
 @pytest.mark.API
-def test_ramadaiasi_country_api(get_job_details):
+def test_arcadiamedical_country_api(get_job_details):
     allure.dynamic.title(f"Test job countries from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -68,16 +69,15 @@ def test_ramadaiasi_country_api(get_job_details):
     with allure.step("Step 2: Get job countries and titles from the Peviitor API"):
         job_countries_peviitor = peviitor_jobs_data[2]
         job_titles_peviitor = peviitor_jobs_data[0]
-
+        
     with allure.step("Step 3: Compare job countries from scraper response against Peviitor API Response"):
         allure.attach(f"Expected Results: {job_countries_scraper}", name="Expected Results")
         allure.attach(f"Actual Results: {job_countries_peviitor}", name="Actual Results")
         TestUtils().check_job_countries(job_countries_scraper, job_countries_peviitor, job_titles_scraper, job_titles_peviitor)
 
-
 @pytest.mark.regression
 @pytest.mark.API
-def test_ramadaiasi_link_api(get_job_details):
+def test_arcadiamedical_link_api(get_job_details):
     allure.dynamic.title(f"Test job links from the {company_name} website against Peviitor API Response")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
@@ -91,9 +91,10 @@ def test_ramadaiasi_link_api(get_job_details):
         allure.attach(f"Actual Results: {job_links_peviitor}", name="Actual Results")
         TestUtils().check_job_links(job_links_scraper, job_links_peviitor)
 
+
 @pytest.mark.regression
 @pytest.mark.API
-def test_ramadaiasi_status_code_link_api(get_job_details):
+def test_arcadiamedical_status_code_link_api(get_job_details):
     allure.dynamic.title(f"Test http code response on job links for {company_name} website")
 
     scraped_jobs_data, peviitor_jobs_data = get_job_details
