@@ -1,4 +1,5 @@
 module_names = [
-            'basware',
+            'Bosch',
+            'Genpact'
             # Add more module names as needed
             ]
