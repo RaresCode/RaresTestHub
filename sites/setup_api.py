@@ -45,5 +45,5 @@ class UpdatePeviitorAPI:
         'Content-Type': 'application/json'
         }
 
-        requests.request("POST", "https://api.peviitor.ro/v5/add/", headers=post_header, data=json.dumps(self.data_list))
+        requests.request("POST", "https://api.laurentiumarian.ro/jobs/add/", headers=post_header, data=json.dumps(self.data_list))
 
