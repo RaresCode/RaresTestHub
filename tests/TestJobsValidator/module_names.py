@@ -1,5 +1,6 @@
 module_names = [
             'Bosch',
-            'Genpact'
+            'Genpact',
+            'cargus',
             # Add more module names as needed
             ]
