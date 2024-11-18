@@ -3,7 +3,7 @@ module_names = [
             'artvertising',
             'aeroportoradea',
             'affidearomania',
-            'allengra",
+            'allengra',
             'alumil',
             'anahr',
             'apavital',
