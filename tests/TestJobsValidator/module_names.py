@@ -68,7 +68,7 @@ module_names = [
             'kinetic',
             'kronsoft',
             'leier',
-            'leohr',
+            # 'leohr',Disabled until scraper is changed to ignore jobs that have the job filled image displayed
             'mennekes',
             'metamob',
             'nagarro',
