@@ -1,9 +1,9 @@
 module_names = [
             'cargus',
-            'artvertising',
+            #'artvertising', one of the jobs is not available
             'aeroportoradea',
             'affidearomania',
-            'allengra',
+            #'allengra',
             'alumil',
             'anahr',
             'apavital',
