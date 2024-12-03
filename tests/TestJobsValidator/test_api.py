@@ -30,6 +30,7 @@ class TestScrapers:
         peviitor_jobs_data = TestScrapers.setup_tests.get_jobs_careers(scraper_class)
         yield peviitor_jobs_data
         TestScrapers.setup_tests.jobdetails.send_to_prod(scraper_class)
+        TestScrapers.setup_tests.jobdetails.sync_jobs(scraper_class)
 
     # @pytest.mark.smoke
     # def test_scrapers_special_title(self, setup):

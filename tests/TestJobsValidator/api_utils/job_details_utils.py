@@ -138,4 +138,23 @@ class JobDetails(TestUtils):
     # Countries section
     def check_job_countries(self, job_countries):
         self.countryutils.check_job_countries(self, job_countries)
+
+    # Sync Jobs
+    def sync_jobs(self, company_name):
+        updateapi = UpdateAPI()
+        updateapi.get_token()
+
+        headers = {
+            'accept': 'application/json, text/plain, */*',
+            'authorization': f'Bearer {updateapi.access_token}',
+        }
+
+        json_data = {
+            'company': company_name,
+        }
+
+        response = requests.post('https://api.laurentiumarian.ro/jobs/sync/', headers=headers, json=json_data).status_code
+        print(f"Sync of jobs status code: {response}")
+
+
     
