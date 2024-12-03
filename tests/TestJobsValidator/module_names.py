@@ -4,16 +4,16 @@ module_names = [
             'aeroportoradea',
             'affidearomania',
             #'allengra',
-            'alumil',
+            #'alumil', both jobs are unavailable ( error 404)
             'anahr',
             'apavital',
             'arcadiamedical',
-            'artvertising',
             'atpgroup',
             'autoclass',
             'autonet',
             'autosiena',
             'avaelgo',
+           
             'bakertilly',
             'basware',
             'bbcollection',
